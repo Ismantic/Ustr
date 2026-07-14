@@ -231,4 +231,4 @@ std::string EncodeUTF8(const std::vector<uint32_t>& codepoints) {
 
 这个函数遍历码点数组，逐个编码后拼接成完整的UTF-8字符串。
 
-
+另外，以上五个函数代码原型来自SentencePiece项目，特此说明。
